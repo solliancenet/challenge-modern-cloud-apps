@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Contoso.Apps.SportsLeague.Data
+build_property.ProjectDir = /Users/kyle/repos/microsoft/cloud-workshops/MCW-Modern-cloud-apps/Hands-on lab/lab-files/src/Contoso Sports League/Contoso.Apps.SportsLeague.Data/
