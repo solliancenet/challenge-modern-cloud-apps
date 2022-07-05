@@ -122,7 +122,7 @@ In this challenge, you set up your environment for use in the remaining challeng
 
 ### Challenge 0 success criteria
 
-1. You have successfully created an Azure resource group and populated it with the services created by the provided ARM template.
+1. You have successfully created an Azure resource group and populated it with the services provisioned by the provided ARM template.
 
     > **Note**: The deployment of the custom ARM template should finish in about 15 minutes. You can monitor the deployment's progress on the **Deployment** blade that opens when you start the ARM template deployment.
 
