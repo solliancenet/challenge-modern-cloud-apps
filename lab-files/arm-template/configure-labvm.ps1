@@ -19,15 +19,8 @@ Invoke-WebRequest 'https://github.com/microsoft/MCW-Modern-cloud-apps/archive/re
 Expand-Archive -LiteralPath 'C:\MCW.zip' -DestinationPath 'C:\MCW' -Force
 
 # Download and istall Microsoft Edge
-Invoke-WebRequest 'https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/0a4291f0-226e-4d0a-a702-7aa901f20ff4/MicrosoftEdgeEnterpriseX64.msi' -OutFile 'C:\MicrosoftEdgeEnterpriseX64.msi'
-$msiArgs = @(
-    "/i"
-    "C:\MicrosoftEdgeEnterpriseX64.msi"
-    "/qn"
-    "/norestart"
-    "/L*v C:\edge-install-log.txt"
-)
-Start-Process msiexec.exe -ArgumentList $msiArgs -Wait -NoNewWindow
+Invoke-WebRequest 'https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en' -OutFile 'C:\MicrosoftEdgeSetup.exe'
+Start-Process C:\MicrosoftEdgeSetup.exe /VERYSILENT
 
 # Download and install Azure Data Studio
 Invoke-WebRequest 'https://go.microsoft.com/fwlink/?linkid=2160780' -OutFile 'C:\azuredatastudio.exe'
