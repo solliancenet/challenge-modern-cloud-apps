@@ -26,7 +26,7 @@
     }
   },
   "variables": {
-    "gitHubOrg": "microsoft",
+    "gitHubOrg": "solliancenet",
     "gitHubBranch": "master",
 
     "location": "[resourceGroup().location]",
@@ -42,7 +42,7 @@
     "vmNetworkInterfaceName": "[concat(variables('vmName'), '-nic')]",
     "vmPublicIpAddressName": "[concat(variables('vmName'), '-ip')]",
     "vmCustomScriptFileName": "configure-labvm.ps1",
-    "vmCustomScriptUri": "[concat('https://raw.githubusercontent.com/', variables('gitHubOrg'), '/MCW-Modern-cloud-apps/', variables('gitHubBranch'), '/Hands-on%20lab/lab-files/arm-template/', variables('vmCustomScriptFileName'))]",
+    "vmCustomScriptUri": "[concat('https://raw.githubusercontent.com/', variables('gitHubOrg'), '/challenge-modern-cloud-apps/', variables('gitHubBranch'), '/lab-files/arm-template/', variables('vmCustomScriptFileName'))]",
 
     "webAppName": "[concat('contosoapp', uniqueString(resourceGroup().id))]",
     "hostingPlanName": "[concat('contoso-asp-', uniqueString(resourceGroup().id))]",
