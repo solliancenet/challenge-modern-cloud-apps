@@ -37,7 +37,7 @@
     "subnetPrefix": "10.0.2.0/24",
 
     "vmName": "LabVM",
-    "vmSize": "Standard_D4s_v3",
+    "vmSize": "Standard_D2s_v3",
     "vmNetworkSecurityGroupName": "[concat(variables('vmName'), '-nsg')]",
     "vmNetworkInterfaceName": "[concat(variables('vmName'), '-nic')]",
     "vmPublicIpAddressName": "[concat(variables('vmName'), '-ip')]",
