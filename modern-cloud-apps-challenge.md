@@ -97,7 +97,7 @@ In this challenge, you set up your environment for use in the remaining challeng
       - **Username**: Accept the default value, **demouser**.
       - **Password**: Accept the default value, **Password.1!!**.
 
-    <a href ="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%solliance%2Fmodern-cloud-apps-challenge%2Fmaster%2Flab-files%2Farm-template%2Fazure-deploy.json" target="_blank" title="Deploy to Azure"><img src="./media/deploy-button.png"/></a>
+    <a href ="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%solliancenet%2Fchallenge-modern-cloud-apps%2Fmaster%2Flab-files%2Farm-template%2Fazure-deploy.json" target="_blank" title="Deploy to Azure"><img src="./media/deploy-button.png"/></a>
 
     > **Note**: The ARM template will append a hyphen followed by a 13-digit string at the end of resource names. This suffix ensures globally unique names for resources. We will ignore that string when referring to resources throughout the challenges. The resources created by the ARM template include:
     >
