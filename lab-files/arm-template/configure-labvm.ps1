@@ -18,10 +18,10 @@ Disable-InternetExplorerESC
 Invoke-WebRequest 'https://github.com/microsoft/MCW-Modern-cloud-apps/archive/refs/heads/main.zip' -OutFile 'C:\MCW.zip'
 Expand-Archive -LiteralPath 'C:\MCW.zip' -DestinationPath 'C:\MCW' -Force
 
-# Download and istall Microsoft Edge
-Invoke-WebRequest 'https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en' -OutFile 'C:\MicrosoftEdgeSetup.exe'
-Start-Process C:\MicrosoftEdgeSetup.exe /VERYSILENT
-
 # Download and install Azure Data Studio
 Invoke-WebRequest 'https://go.microsoft.com/fwlink/?linkid=2160780' -OutFile 'C:\azuredatastudio.exe'
 Start-Process C:\azuredatastudio.exe /VERYSILENT
+
+# Download and istall Microsoft Edge
+Invoke-WebRequest 'https://go.microsoft.com/fwlink/?linkid=2108834&Channel=Stable&language=en' -OutFile 'C:\MicrosoftEdgeSetup.exe'
+Start-Process C:\MicrosoftEdgeSetup.exe /VERYSILENT
