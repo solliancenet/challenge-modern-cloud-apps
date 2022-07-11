@@ -130,7 +130,7 @@ In this challenge, you set up your environment for use in the remaining challeng
 
 **Duration**: 15 minutes
 
-In this challenge, you retrieve various connection string values from resources in your `mca-challenge-SUFFIX` resource group and use them to create secrets in Key Vault. Additionally, you will create references to the secrets in Key Vault and add them to the App Configuration resource.
+In this challenge, you retrieve various connection string values from resources in your `hands-on-lab-SUFFIX` resource group and use them to create secrets in Key Vault. Additionally, you will create references to the secrets in Key Vault and add them to the App Configuration resource.
 
 ### Challenge 1 tasks to complete
 
@@ -1427,7 +1427,7 @@ In this exercise, you will release the Call Center Admin Portal application usin
 
 ### Tasks to complete
 
-1. In the Azure portal, select Resource groups from the left-hand menu, then locate and delete the `mca-challenge-SUFFIX` resource group.
+1. In the Azure portal, select Resource groups from the left-hand menu, then locate and delete the `hands-on-lab-SUFFIX` resource group.
 2. Delete the resource group and all the resources contained within it.
 
 ## References
