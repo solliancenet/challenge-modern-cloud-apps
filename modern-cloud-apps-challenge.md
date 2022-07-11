@@ -961,6 +961,8 @@ Contoso wants to automate the process of generating receipts in PDF format and a
 
 **Duration**: 45 Minutes
 
+In this challenge, you use Logic Apps and Twilio to send SMS order notifications.
+
 ### Challenge 12 tasks to complete
 
 1. Configure a Twilio trial account. If you do not have a Twilio account, sign up for one for free at [https://www.twilio.com/try-twilio](https://www.twilio.com/try-twilio)
